@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border: 1px solid black;
+    width: 600px;
+}
+
+h1{
+    margin: 2%;
+}
+
+h2{
+    margin: 2%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contenido{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+}
+
+article{
+    border: 1px solid black;
+    margin: 2%;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.variante{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.variante.verde{
+    background-color: green;
+}
+.variante.violeta{
+    background-color: purple;
+}
+.variante.naranja{
+    background-color: orange;
+}
+
+.variante.rojoTXT{
+    color: red;
+}
+.variante.verdeTXT{
+    color: green;
+}
+.variante.amarilloTXT{
+    color: yellow;
+}
+
+footer{
+    border: 1px solid black;
+    width: 600px;
+}
+
+p{
+    font-size: 120%;
+}
+
+select{
+    font-size: 19px;
+    width: 260px;
+}
+
+.radioButton{
+    display: flex;
+}
+
+input{
+    width: 31px;
+    height: 16px;
+}

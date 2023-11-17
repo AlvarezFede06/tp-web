@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    border-bottom: solid;
+}
+footer{
+    text-align: center;
+    border-top: solid;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: 480px;
+}
+#vista-previa{
+    border: solid;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+#titulo{
+    padding-top: 100px;
+    font-size: 25px;
+}
+#ingreso{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 260px;
+    height: 260px;
+    padding: 20px;
+    gap: 10px;
+}
+.izquierda{
+    text-align: left !important;
+}
+.derecha{
+    text-align: right !important;
+}
+.centrado{
+    text-align: center !important;
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.verde{
+    background-color: green;
+}

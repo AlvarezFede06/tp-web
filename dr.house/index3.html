@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos3.css'>
+    <script src='segundo.js'></script>
+</head>
+<body>
+    <main>
+        <h1 class="titulo">2do parcial</h1>
+        <section class="sectioncuaderno">
+            <article class="articlecuaderno special">
+                <p class="title" id="tit">Título de la serie</p>
+            </article>
+            <article class="articlecuaderno" id="tabladerecha">
+                <h3 class="title">Seleccioná una serie</h3>
+                <div class="checks">
+                    <label class="dondeva" id="PTA">
+                        <input type="radio" name="seleccion" onchange="actualizarTitulo(this)">
+                        <h3 class="ache">DR. HOUSE</h3>
+                    </label>
+                    <label class="dondeva" id="CAR">
+                        <input type="radio" name="seleccion" onchange="actualizarTitulo(this)">
+                        <h3 class="ache">LOS 100</h3>
+                    </label>
+                    <label class="dondeva" id="JOTO">
+                        <input type="radio" name="seleccion" onchange="actualizarTitulo(this)">
+                        <h3 class="ache">FRIENDS</h3>
+                    </label>
+                </div>
+                <h3 class="title">Cambiá el color del fondo</h3>
+                <select name="select" id="selectColorFondo">
+                    <option value="" disabled selected>Seleccione un color</option>
+                    <option value="gris">Gris</option>
+                    <option value="cian">Celeste</option>
+                    <option value="amarillo">Amarillo</option>
+                </select>
+                <h3 class="title">Cambiá el color del texto</h3>
+                <select name="select" id="selectColorTexto">
+                    <option value="" disabled selected>Seleccione un color</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="verde">Verde</option>
+                    <option value="naranja">Naranja</option>
+                </select>
+            </article>
+        </section>
+        <h1 class="tituloe">Apellido y nombre del alumno - DNI</h1>
+    </main>
+</body>
+</html>

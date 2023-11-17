@@ -1,0 +1,93 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    border: 1px solid black;
+    width: 600px;
+}
+
+footer{
+    border: 1px solid black;
+    width: 600px;
+}
+
+.datos{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.ejemplo{
+    border: 1px solid black;
+    height: 150px;
+}
+
+.ejemplo.rojo{
+    background-color: red;
+}
+.ejemplo.verde{
+    background-color: green;
+}
+.ejemplo.azul{
+    background-color: blue ;
+}
+
+.txtCentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
+.txtDerecha{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
+.txtIzquierda{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
+
+main{
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    width:600px;
+}
+
+section{
+    margin: 2%;
+    width: 100%;
+}
+
+h2{
+    margin: 2%;
+}
+
+h3{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.radioButtons{
+    font-size: 95%;
+}
+
+.text{
+    margin: 1%;
+    padding: 1%;
+    width: 95%;
+}
+
+.color{
+    margin: 1%;
+    padding: 1%;
+    width: 99%;
+}

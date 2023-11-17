@@ -1,0 +1,54 @@
+header{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.personalizacion article{
+    width: calc(50% - 2em);
+    height: 250px;
+}
+
+.personalizacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recuadro{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text],select{
+    height: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.Rojo{
+    background-color: red;
+}
+
+.Azul{
+    background-color: blue;
+}
+
+.Violeta{
+    background-color: purple;
+}
+
+.Amarillo{
+    color: yellow;
+}
+
+.Verde{
+    color: green;
+}
+
+.Blanco{
+    color: white;
+}

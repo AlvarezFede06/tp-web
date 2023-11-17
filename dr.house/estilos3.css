@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 230px 300px 0px 300px;
+    background-color: white;
+}
+
+a {
+    text-align: center; 
+    align-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: medium;
+}
+
+.sectioncuaderno {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    padding: 20px; /* Añadimos un espaciado para separar los elementos del borde del section */
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style:inherit;
+}
+
+.articlecuaderno {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 5px;
+    padding: 15px;
+}
+
+#CAR {
+    margin-left: 0px;
+}
+
+#tabladerecha {
+    max-width: 300px 300px 300px 300px;  
+}
+
+/* Añadimos un padding para separar el contenido del borde del article */
+.articlecuaderno > * {
+    padding: 10px;
+}
+
+/* Restauramos el estilo para los títulos h2 dentro de article */
+.articlecuaderno h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: medium;
+}
+
+/* Restauramos el estilo para los enlaces <a> dentro de article */
+.articlecuaderno a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+/* Restauramos el estilo para los enlaces <a> cuando están en hover */
+.articlecuaderno a:hover {
+    color: blue;
+}
+
+.checks {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.checks h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    background-color: white;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-top:  0.5px solid black;
+    border-bottom: none;
+    padding: 10px 5px; /* Añadimos espaciado vertical y horizontal */
+    width: 100%; /* Para ocupar todo el ancho del contenedor */
+    text-align: center;
+}
+
+/* Ajustamos el recuadro del artículo con el título "Título" */
+.articlecuaderno:first-child {
+    width: 17%; /* Establecemos el mismo ancho que los demás artículos */
+    margin: 5px;
+    padding: 15px;
+    box-shadow: 4px;
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* Ajustamos el recuadro del artículo con el título "Título" */
+.articlecuaderno.special {
+    width: 40%;
+    margin: 5px;
+    padding: 65px 0px 65px 0px;
+    box-shadow: 4px;
+    display: flex;
+    text-align: center;
+}
+
+/* Agregamos estilos para el contenedor del título "Título" */
+.articlecuaderno.special > .title-container {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Restauramos el estilo para los títulos h3 dentro de article */
+.articlecuaderno h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.titulo {
+    background-color: white;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-top:  0.5px solid black;
+    border-bottom: none;
+    padding: 10px 5px; /* Añadimos espaciado vertical y horizontal */
+    width: 100%; /* Para ocupar todo el ancho del contenedor */
+}
+
+.tituloe {
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+/* Restaurar el estilo para los títulos h3 dentro de article */
+.articlecuaderno h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0;
+    white-space: nowrap; /* Evitar que el texto del h3 se divida en varias líneas */
+}
+
+.dondeva {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 33.33%; /* Distribuir en tres columnas */
+}
+
+#PTA {
+    margin-left: 0px;
+}
+
+#JOTO {
+    margin-left: 0px;
+}
+
+.dondeva input[type="radio"],
+.dondeva h3 {
+    flex: 1;
+}
+
+.ache {
+    padding-right: 5px;
+}
+
+/* Establecer un ancho fijo para los contenedores de radio y h3 para que no se superpongan */
+.dondeva .ache {
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap; /* Evitar que el texto del h3 se divida en varias líneas */
+}
+
+.sectionalumno {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+b {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
